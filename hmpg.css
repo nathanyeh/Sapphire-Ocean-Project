@@ -1,0 +1,371 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+.header{
+    width:100%;
+    display:flex;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 0 10px gray;
+    position:fixed;
+    z-index:5;
+}
+.header .website-logo{
+    display:flex;
+    align-items: center;
+}
+.header .logo img{
+    vertical-align: top;
+    margin:5px;
+    width:60px;
+}
+.header .logo-text img{
+    margin:5px;
+    width:100px;
+}
+.header nav ul{
+    display:flex;
+}
+.header nav a{
+    text-decoration: none;
+    color:#000465;
+    margin:0px 30px;
+    font-size:17px;
+    display:inline-block;
+    padding:5px 10px;
+}
+.header nav ul li :hover{
+    border-bottom: 1px solid #000465;
+}
+.banner{
+    position:relative;
+}
+.banner img{
+    width:100%;
+    height:760px;
+}
+.banner p{
+    color:white;
+    font-size:50px;
+    text-shadow:0 4px 4px rgba(0,0,0,0.7);
+    position:absolute;
+    top:430px;
+    left:120px;
+}
+.room{
+    width:100%;
+}
+.room .title{
+    display:flex;
+    flex-direction: column;
+    margin:100px 0 50px 0;
+    background-image: url(SOpics/goldlineleft.png);
+}
+.room h2{
+    text-align: center;
+    color:#000465;
+    margin-bottom:1px;
+    font-size:28px;
+}
+.room p{
+    text-align: center;
+    color:#D0C4A4;
+}
+.room-type{
+    display:flex;
+    justify-content: center;
+    gap: 30px;;
+}
+.room-type .wrap{
+    display:flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.room-type .item{
+    position:relative;
+    cursor: pointer;
+}
+.room-type .item :hover{
+    color:#D0C4A4;
+    text-shadow:0px 1px 2px #000465;
+    opacity:1;
+}
+.room-type .item h3{
+    position:absolute;
+    font-size:25px;
+    text-align: center;
+    top:40px;
+    left:50px;
+    color:#000465;
+    text-shadow:0px 1px 2px #D0C4A4;
+    z-index: 1;
+}
+.room-type .item img{
+    /* width:240px; */
+    /* height:140px; */
+    border-radius: 10px;
+    opacity:.7;
+}
+.room-type .main-room img{
+    width:900px;
+    /* height:600px; */
+    border-radius: 20px;
+    position:relative;
+}
+.main-room .text{
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    z-index: 1;
+    background-color: rgb(0,4,101,.6);
+    line-height: 2;
+    border-radius: 20px;
+    margin:100px 0px 0px 500px;
+    box-shadow:2px 2px 3px gray;
+}
+.main-room .text h4{
+    font-size: 23px;
+    color:#D0C4A4;
+    text-align: center;
+    text-shadow:0px 1px 2px #000465;
+    margin:30px 0 10px 0;
+}
+.main-room .text p{
+    font-size:17px;
+    color:white;
+    text-shadow:0px 1px 2px #000465;
+    padding:10px 20px 40px 30px;
+    text-align: left;
+}
+.main-room .text button{
+    width:70px;
+    margin:0 0px 50px 180px;
+    border:none;
+    padding:3px;
+    border-radius: 4px;
+    background-color:#FFBA09;
+    cursor: pointer;
+}
+.entertain{
+    width:100%;
+}
+.entertain .title{
+    display:flex;
+    flex-direction: column;
+    margin:100px 0 50px 0;
+    background-image: url(SOpics/goldline.png);
+}
+.entertain .title h2{
+    text-align: center;
+    color:#000465;
+    font-size:28px;
+}
+.entertain .title p{
+    text-align: center;
+    color:#D0C4A4;
+}
+.entertain .explore{
+    display:flex;
+    justify-content: center;
+    background-image:url(SOpics/backpic.png);
+    align-items: flex-start;
+}
+.entertain .fun{
+    display:flex;
+    flex-direction: column;
+    gap:30px;  
+    align-items: center;
+    margin: 40px;
+}
+.explore .fun .land{
+    width:130px;
+    height:130px;
+}
+.explore .fun .sea{
+    width:190px;
+    height:190px;
+    margin-right:40px;
+}
+.explore .fun .food{
+    width:130px;
+    height:130px;
+}
+.explore .fun .item{
+    cursor: pointer;
+}
+.fun .item img{
+    opacity:.6;
+    cursor: pointer;
+}
+.explore .fun .item :hover{
+    opacity:1;
+    text-shadow: 1px 1px 3px #000465;
+}
+.explore .fun .item p{
+    color:#D0C4A4;
+    text-align: center;
+}
+.event {
+    background-color: #000465;
+    border: 3px solid #D0C4A4;
+    width:900px;
+    border-radius: 100px;
+    margin:20px;
+}
+.event .text h3{
+    text-align: center;
+    font-size: 20px;
+    color:#D0C4A4;
+    margin:50px 0 20px 0;
+}
+.event .text p{
+    text-align: center;
+    color:white;
+}
+.event .wrap{
+    display:flex;
+    justify-content: center;
+}
+.event .wrap .item{
+    width:240px;
+    margin:50px 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap .item img{
+    width:100%;
+}
+.wrap .item h4{
+    text-align: center;
+    color:#D0C4A4;
+    font-size:18px;
+    margin:20px;
+}
+.wrap .item button{
+    background-color: #FFBA09;
+    padding: 6px;
+    border-radius: 40px;
+    border:1px solid #FFBA09;
+}
+.wrap .item button a{
+    text-decoration: none;
+    color:#000465;
+    font-size:10px;
+    text-align: center;
+}
+
+.about{
+    width:100%;
+}
+.about .title{
+    display:flex;
+    flex-direction: column;
+    margin:100px 0 50px 0;
+    background-image: url(SOpics/goldlineleft.png);
+}
+.about .title h2{
+    text-align: center;
+    color:#000465;
+    margin-bottom:2px;
+    font-size: 28px;
+}
+.about .title p{
+    text-align: center;
+    color:#D0C4A4;
+}
+.about .story{
+    width:1200px;
+    display:flex;
+    margin: auto;
+}
+.about .story .text{
+    background-color: rgba(255, 255, 255, 0.7);
+    width:700px;
+    height:380px;
+    border-radius: 50px;;
+    position: absolute;
+    margin:120px 240px;
+    z-index: 1;
+    line-height: 1.8;
+}
+.story .text p{
+    color:#000465;
+    padding:75px;
+    font-size:17px;
+    text-shadow:0 4px 4px rgba(255, 255, 255, 0.9);
+}
+.story .backpic{
+    position:relative;
+}
+.story .backpic img{
+    width:1200px;
+    height:600px;
+    border-radius: 50px;
+}
+.footer{
+    width:100%;
+    background-color: #B4A889;
+}
+.footer .title{
+    display:flex;
+    flex-direction: column;
+    margin:100px 0 50px 0;
+    padding-bottom:35px;
+    background-image: url(SOpics/goldline.png);
+}
+.footer .title h2{
+    text-align: center;
+    color:#000465;
+    font-size:28px;
+}
+.footer .title p{
+    text-align: center;
+    color:#D0C4A4;
+}
+.footer .contact{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width:1200px;
+    gap:100px;
+}
+.footer .contact .address{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .contact .map{
+    margin-bottom: 50px;
+    align-items: center;
+}
+.footer .address p{
+    color:#000465;
+}
+.footer .contact .icon{
+    display:flex;
+    justify-content:space-evenly;
+    width:400px;
+}
+.footer .contact .icon img{
+    margin:5px 15px;
+    height:30px;
+    cursor: pointer;
+}
+.footer .privacy{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    border-top: 1px solid #79705a;
+}
+.footer .privacy p{
+    font-size: 13px;
+    text-align: center;
+    color:#79705a;
+    margin:10px 0 0 0;
+}

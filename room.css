@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+.header{
+    width:100%;
+    display:flex;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 0 10px gray;
+    position:fixed;
+    z-index:5;
+}
+.header .website-logo{
+    display:flex;
+    align-items: center;
+}
+.header .logo img{
+    vertical-align: top;
+    margin:5px;
+    width:60px;
+}
+.header .logo-text img{
+    margin:5px;
+    width:100px;
+}
+.header nav ul{
+    display:flex;
+}
+.header nav a{
+    text-decoration: none;
+    color:#000465;
+    margin:0px 30px;
+    font-size:17px;
+    display:inline-block;
+    padding:5px 10px;
+}
+.header nav ul li :hover{
+    border-bottom: 1px solid #000465;
+}
+.banner{
+    position:relative;
+}
+.banner img{
+    width:100%;
+    height:760px;
+}
+.banner p{
+    color:white;
+    font-size:50px;
+    text-shadow:0 4px 4px rgba(0,0,0,0.7);
+    position:absolute;
+    top:430px;
+    left:120px;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    margin:70px 0 70px 0;
+    background-image: url(SOpics/goldlineleft.png);
+}
+.title h2{
+    text-align: center;
+    font-size:30px;
+    color:#000465;
+}
+.title p{
+    text-align: center;
+    color:#D0C4A4;
+    margin:3px;
+}
+.container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    position:relative;
+    margin-bottom:50px;
+}
+.container .item{
+    display:flex;
+    margin: auto;
+    gap:20px;
+}
+.container .item img{
+    width:700px;
+}
+.container .text{
+    border: 2px solid #D0C4A4;
+    width:500px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+.container .text h3{
+    font-size:24px;
+    color:#D0C4A4;
+    text-align:center;
+    margin:40px;
+    padding:10px;
+    border-bottom:1px solid #D0C4A4;
+}
+.container .text p{
+    font-size:17px;
+    color: rgb(0,4,101,.9);
+    margin:20px;
+    text-align: center;
+}
+.container .item .text button{
+    border:1px solid #D0C4A4;
+    padding:10px;
+    background-color: white;
+    color:#D0C4A4;
+    font-size: 15px;
+    margin:50px 0 0 300px;
+    cursor: pointer;
+}
+
+.footer{
+    width:100%;
+    background-color: #B4A889;
+}
+.footer .contact{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width:1200px;
+    gap:100px;
+    padding-top:50px;
+}
+.footer .contact .address{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .contact .map{
+    margin-bottom: 50px;
+    align-items: center;
+}
+.footer .address p{
+    color:#000465;
+}
+.footer .contact .icon{
+    display:flex;
+    justify-content:space-evenly;
+    width:400px;
+}
+.footer .contact .icon img{
+    margin:5px 15px;
+    height:30px;
+    cursor: pointer;
+}
+.footer .privacy{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    border-top: 1px solid #79705a;
+}
+.footer .privacy p{
+    font-size: 13px;
+    text-align: center;
+    color:#79705a;
+    margin:10px 0 0 0;
+}
+
+
