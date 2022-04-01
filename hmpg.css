@@ -51,7 +51,7 @@
 .banner p{
     color:white;
     font-size:50px;
-    text-shadow:0 4px 4px rgba(0,0,0,0.7);
+    text-shadow:0 3px 3px rgba(48, 48, 48, 0.7);
     position:absolute;
     top:430px;
     left:120px;
