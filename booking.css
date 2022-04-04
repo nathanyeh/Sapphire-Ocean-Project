@@ -41,3 +41,161 @@
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
+.banner{
+    position:relative;
+}
+.banner img{
+    width:100%;
+    height:760px;
+}
+.banner p{
+    color:white;
+    font-size:50px;
+    text-shadow:0 3px 3px rgba(48, 48, 48, 0.7);
+    position:absolute;
+    top:480px;
+    left:120px;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    margin:70px 0 70px 0;
+    background-image: url(SOpics/goldlineleft.png);
+}
+.title h2{
+    text-align: center;
+    font-size:30px;
+    color:#000465;
+}
+.title p{
+    text-align: center;
+    color:#D0C4A4;
+    margin:3px;
+}
+.check{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    width:100%;
+    background-color: #D0C4A4;
+    margin-bottom:50px;
+}
+.check .box{
+    display:flex;
+    margin: auto;
+    padding:50px;
+    color: rgb(0,4,101,.9);
+}
+.check label{
+    font-size:20px;
+    margin:0 10px;
+}
+.check button{
+    font-size:15px;
+    margin:auto;
+    padding:10px;
+    margin-bottom:50px;
+    border:none;
+    border-radius: 20px;
+    color: rgb(0,4,101,.9);
+    background-color:#FFBA09;
+    box-shadow:2px 2px 2px rgb(156, 156, 156);
+    cursor: pointer;
+}
+.container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    position:relative;
+    margin-bottom:50px;
+}
+.container .item{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+}
+.container .item img{
+    width:27%;
+}
+.container .text{
+    border: 2px solid #D0C4A4;
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    line-height: 1.5;
+}
+.container .text h3{
+    font-size:24px;
+    color:#D0C4A4;
+    text-align:left;
+    margin:40px;
+    padding:10px;
+    border-bottom:1px solid #D0C4A4;
+}
+.container .text p{
+    font-size:17px;
+    color: rgb(0,4,101,.9);
+    margin:0px 35px;
+    text-align: left;
+}
+.container .item .text button{
+    width:80px;
+    padding:7px;
+    border:none;
+    border-radius: 20px;
+    color: rgb(0,4,101,.9);
+    background-color:#FFBA09;
+    box-shadow:2px 2px 2px rgb(196, 196, 196);
+    font-size: 15px;
+    margin:30px 0 30px 680px;
+    cursor: pointer;
+}
+.footer{
+    width:100%;
+    background-color: #B4A889;
+}
+.footer .contact{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width:1200px;
+    gap:100px;
+    padding-top:50px;
+}
+.footer .contact .address{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .contact .map{
+    margin-bottom: 50px;
+    align-items: center;
+}
+.footer .address p{
+    color:#000465;
+}
+.footer .contact .icon{
+    display:flex;
+    justify-content:space-evenly;
+    width:400px;
+}
+.footer .contact .icon img{
+    margin:5px 15px;
+    height:30px;
+    cursor: pointer;
+}
+.footer .privacy{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    border-top: 1px solid #79705a;
+}
+.footer .privacy p{
+    font-size: 13px;
+    text-align: center;
+    color:#79705a;
+    margin:10px 0 0 0;
+}
