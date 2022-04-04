@@ -86,7 +86,6 @@
 .choice .item :hover{
     opacity:1;
     color:#D0C4A4;
-    background-color: #000465;
 }
 .choice .item h3{
     font-size:30px;
@@ -94,11 +93,14 @@
     line-height: 250px;
     margin:0 30px;
     cursor: pointer;
-    background-color: #fff;
 }
 .choice .item img{
     opacity:.6;
     cursor: pointer;
+}
+.choice .item a{
+    text-decoration: none;
+    background-color: #fff;
 }
 .footer{
     width:100%;
