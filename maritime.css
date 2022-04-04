@@ -78,6 +78,7 @@
     justify-content:center;
     width:100%;
     margin-top:80px;
+    margin-bottom:200px;
     gap:50px;
 }
 .selection .item{
@@ -96,4 +97,109 @@
     font-size:40px;
     color:#000465;
     text-shadow:3px 2px 1px #D0C4A4;
+}
+.event{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    width:100%;
+    background-image: url(SOpics/backpic.png);
+    margin-bottom:100px;
+}
+.event .pic{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    justify-content: center;
+    width:50%;
+}
+.event .pic img{
+    border-radius: 50%;
+    border:4px solid #D0C4A4;
+}
+.event .pic .slider{
+    display:flex;
+    margin:auto;
+    justify-content: space-evenly;
+    margin:15px 20px;
+}
+.event .pic .slider img{
+    width:30%;
+    border:2px solid #D0C4A4;
+    cursor: pointer;
+}
+.event .description{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    width:37%;
+    background-color:#000465;
+    color:rgb(255, 255, 255, 0.9);
+    line-height: 1.5;
+    border-radius: 100px;;
+}
+.event .text{
+    padding:45px;
+}
+.event .description h3{
+    font-size:25px;
+    text-align: center;
+    color:#D0C4A4;
+    margin:20px;
+}
+.event .resign button{
+    border:none;
+    background-color:#FFBA09;
+    color:#000465;
+    font-size:15px;
+    padding:7px;
+    border-radius: 30px;
+    margin:50px 0px 10px 350px;
+    cursor: pointer;
+}
+.footer{
+    width:100%;
+    background-color: #B4A889;
+}
+.footer .contact{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width:1200px;
+    gap:100px;
+    padding-top:50px;
+}
+.footer .contact .address{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .contact .map{
+    margin-bottom: 50px;
+    align-items: center;
+}
+.footer .address p{
+    color:#000465;
+}
+.footer .contact .icon{
+    display:flex;
+    justify-content:space-evenly;
+    width:400px;
+}
+.footer .contact .icon img{
+    margin:5px 15px;
+    height:30px;
+    cursor: pointer;
+}
+.footer .privacy{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    border-top: 1px solid #79705a;
+}
+.footer .privacy p{
+    font-size: 13px;
+    text-align: center;
+    color:#79705a;
+    margin:10px 0 0 0;
 }
