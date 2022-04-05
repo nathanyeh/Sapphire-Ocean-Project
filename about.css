@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+.header{
+    width:100%;
+    display:flex;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow:0 0 10px gray;
+    position:fixed;
+    z-index:5;
+}
+.header .website-logo{
+    display:flex;
+    align-items: center;
+}
+.header .logo img{
+    vertical-align: top;
+    margin:5px;
+    width:60px;
+}
+.header .logo-text img{
+    margin:5px;
+    width:100px;
+}
+.header h1{
+    position:fixed;
+    top:0;
+    left:-10000px;
+}
+.header nav ul{
+    display:flex;
+}
+.header nav a{
+    text-decoration: none;
+    color:#000465;
+    margin:0px 30px;
+    font-size:17px;
+    display:inline-block;
+    padding:5px 10px;
+}
+.header nav ul li :hover{
+    border-bottom: 1px solid #000465;
+}
+.banner{
+    position:relative;
+}
+.banner img{
+    width:100%;
+    height:760px;
+}
+.banner p{
+    color:white;
+    font-size:50px;
+    text-shadow:0 3px 3px rgba(48, 48, 48, 0.7);
+    position:absolute;
+    top:480px;
+    left:120px;
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    margin:70px 0 70px 0;
+    background-image: url(SOpics/goldline.png);
+}
+.title h2{
+    text-align: center;
+    font-size:30px;
+    color:#000465;
+}
+.title p{
+    text-align: center;
+    color:#D0C4A4;
+    margin:3px;
+}
+.story{
+    width:100%;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+}
+.story .text{
+    background-color: rgba(255, 255, 255, 0.7);
+    width:50%;
+    border-radius: 50px;;
+    position: absolute;
+    margin:120px 240px;
+    z-index: 1;
+    line-height: 1.8;
+}
+.story .text p{
+    color:#000465;
+    padding:75px;
+    font-size:17px;
+    text-shadow:1px 1px 2px rgba(255, 255, 255, 0.9);
+}
+.story .backpic{
+    position:relative;
+    display:flex;
+    margin:auto;
+    justify-content: center;
+}
+.story .backpic img{
+    width:85%;
+    border-radius: 50px;
+}
+.title-two{
+    display:flex;
+    flex-direction: column;
+    margin:70px 0 70px 0;
+    background-image: url(SOpics/goldlineleft.png);
+}
+.title-two h2{
+    text-align: center;
+    font-size:30px;
+    color:#000465;
+}
+.title-two p{
+    text-align: center;
+    color:#D0C4A4;
+    margin:3px;
+}
+.news{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+.news .main-item{
+    width:45%;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-right:20px;
+    border:3px solid #D0C4A4;
+}
+.news .main-item h3{
+    font-size:20px;
+    padding:25px 10px;
+    color: rgb(0,4,101,.9);
+}
+.news .main-item p{
+    font-size:17px;
+    padding:0 0 20px 10px;
+    color: rgb(0,4,101,.9);
+    line-height: 1.5;
+}
+.news .main-item button{
+    display:flex;
+    margin: auto;
+    margin-right:50px;
+    margin-top:10px;
+    border:none;
+    padding:5px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #D0C4A4;
+    color:#D0C4A4;
+}
+.news .main-item span{
+    padding:0px 0 20px 10px;
+    color: rgb(0,4,101,.9);
+}
+.new .main-item img{
+    width:100%;
+    vertical-align: bottom;
+}
+.news .wrap{
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+.news .wrap .item{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin:20px;
+    border:2px solid #D0C4A4;
+}
+.news .wrap .item img{
+    width:100%;
+    vertical-align: bottom;
+}
+.news .wrap .item h4{
+    font-size:17px;
+    padding:12px 5px;
+    color: rgb(0,4,101,.9);
+}
+.news .wrap .item p{
+    font-size:14px;
+    padding:0 0 12px 5px;
+    color: rgb(0,4,101,.9);
+    line-height: 1.2;
+}
+.news .wrap .item button{
+    display:flex;
+    margin: auto;
+    margin-right:30px;
+    border:none;
+    padding:2px;
+    font-size:8px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #D0C4A4;
+    color:#D0C4A4;
+}
+.news .wrap .item span{
+    padding:0px 0 12px 5px;
+    color: rgb(0,4,101,.9);
+    font-size:13px;
+}
+.title-three{
+    display:flex;
+    flex-direction: column;
+    margin:70px 0 70px 0;
+    background-image: url(SOpics/goldline.png);
+}
+.title-three h2{
+    text-align: center;
+    font-size:30px;
+    color:#000465;
+}
+.title-three p{
+    text-align: center;
+    color:#D0C4A4;
+    margin:3px;
+}
+.eco{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    width:100%;
+    margin-bottom:50px;
+}
+.eco .text{
+    width:35%;
+    display:flex;
+    flex-direction: column;
+}
+.eco .text p{
+    font-size:20px;
+    color: rgb(0,4,101,.9);
+    padding:20px;
+    border-bottom: 1px solid #D0C4A4;
+    line-height: 1.5;
+    }
+.eco .text ul{
+    padding:20px;
+    color:#D0C4A4;
+    font-size:18px;
+    line-height: 2;
+}
+.eco .pic{
+    width:40%;
+    margin:20px;
+}
+.eco .pic img{
+    width:100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px gray;
+}
+.footer{
+    width:100%;
+    background-color: #B4A889;
+}
+.footer .contact{
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    width:1200px;
+    gap:100px;
+    padding-top:50px;
+}
+.footer .contact .address{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer .contact .map{
+    margin-bottom: 50px;
+    align-items: center;
+}
+.footer .address p{
+    color:#000465;
+}
+.footer .contact .icon{
+    display:flex;
+    justify-content:space-evenly;
+    width:400px;
+}
+.footer .contact .icon img{
+    margin:5px 15px;
+    height:30px;
+    cursor: pointer;
+}
+.footer .privacy{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    border-top: 1px solid #79705a;
+}
+.footer .privacy p{
+    font-size: 13px;
+    text-align: center;
+    color:#79705a;
+    margin:10px 0 0 0;
+}
