@@ -41,7 +41,6 @@
     color:#000465;
     margin:0px 30px;
     font-size:17px;
-    display:inline-block;
     padding:5px 10px;
 }
 .header nav ul li :hover{
@@ -93,6 +92,7 @@
 }
 .container .item img{
     width:700px;
+    border-radius: 30px;
 }
 .container .text{
     border: 2px solid #D0C4A4;
@@ -102,6 +102,7 @@
     flex-direction: column;
     align-self: center;
     line-height: 1.5;
+    border-radius: 20px;
 }
 .container .text h3{
     font-size:24px;
@@ -125,6 +126,7 @@
     font-size: 15px;
     margin:50px 50px 0 300px;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .footer{
