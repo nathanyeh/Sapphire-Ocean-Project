@@ -5,14 +5,20 @@
   }
 .header{
     width:100%;
-    display:flex;
-    margin:auto;
-    justify-content: space-around;
-    align-items: center;
     background-color: rgb(255, 255, 255);
     box-shadow:0 0 10px gray;
     position:fixed;
     z-index:5;
+    top:0;
+    left:0;
+}
+.header .main-header{
+    width:85%;
+    display:flex;
+    margin:auto;
+    align-items: center;
+    justify-content: space-between;
+    padding:3px 0;
 }
 .header .website-logo{
     display:flex;
@@ -20,11 +26,9 @@
 }
 .header .logo img{
     vertical-align: top;
-    margin:5px;
     width:60px;
 }
 .header .logo-text img{
-    margin:5px;
     width:100px;
 }
 .header h1{
@@ -34,14 +38,17 @@
 }
 .header nav ul{
     display:flex;
+    margin: auto;
+    box-sizing: border-box;
 }
 .header nav a{
     text-decoration: none;
     color:#000465;
     margin:0px 30px;
-    font-size:17px;
+    font-size:1.05rem;
     padding:5px 10px;
 }
+
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
@@ -50,7 +57,6 @@
 }
 .banner img{
     width:100%;
-    height:760px;
 }
 .banner p{
     color:white;
@@ -114,8 +120,7 @@
     display:flex;
     margin: auto;
     justify-content: center;
-    width:1200px;
-    gap:100px;
+    gap:6em;
     padding-top:50px;
 }
 .footer .contact .address{

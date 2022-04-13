@@ -8,27 +8,31 @@
     <title>Sapphire Ocean | Accommodation</title>
     <link rel="shortcut icon" href="./SOpics/favicon.ico">
     <link rel="stylesheet" href="./room.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
     <div class="header">
-        <div class="website-logo">
-            <a href="./index.html" class="logo">
-                <img src="./SOpics/SO logo.png" alt="sapphire ocean logo">
-            </a>
-            <a href="./index.html" class="logo-text">
-                <img src="./SOpics/SAPPHIRE OCEAN logo text.png" alt="sapphire ocean website">
-            </a>
+        <div class="main-header">
+            <div class="website-logo">
+                <a href="./index.html" class="logo">
+                    <img src="./SOpics/SO logo.png" alt="sapphire ocean logo">
+                </a>
+                <a href="./index.html" class="logo-text">
+                    <img src="./SOpics/SAPPHIRE OCEAN logo text.png" alt="sapphire ocean website">
+                </a>
+            </div>
+            <h1>sapphire ocean</h1>
+            <nav>
+                <ul>
+                    <li><a href="./roompage.html">Accommodation</a></li>
+                    <li><a href="./entertain.html">Entertainment</a></li>
+                    <li><a href="./reserve.html">Reservation</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                </ul>
+            </nav>
         </div>
-        <h1>sapphire ocean</h1>
-        <nav>
-            <ul>
-                <li><a href="./roompage.html">Accommodation</a></li>
-                <li><a href="./entertain.html">Entertainment</a></li>
-                <li><a href="./reserve.html">Reservation</a></li>
-                <li><a href="./about.html">About Us</a></li>
-            </ul>
-        </nav>
     </div>
 
     <div class="banner">
@@ -43,7 +47,7 @@
             definitely love it.</p>
     </div>
     <div class="container">
-        <div class="item">
+        <div class="item" data-aos="fade-left">
             <img src="./SOpics/1494592313150.jpeg">
             <div class="text">
                 <h3>Luxury Ocean Suite</h3>
@@ -53,7 +57,7 @@
             </div>
         </div>
 
-        <div class="item">
+        <div class="item" data-aos="fade-right">
             <div class="text">
                 <h3>Fabulous viewing Room</h3>
                 <p>Enjoy the breath-taking ocean view with no limitaion. <br>Falling asleep with the sound of waves and waking up with mild sunshine.</p>
@@ -62,7 +66,7 @@
             <img src="./SOpics/Modern-California-bedroom-with-an-ocean-view1.jpg">
         </div>
 
-        <div class="item">
+        <div class="item" data-aos="fade-left">
             <img src="./SOpics/master-suite-sliding-doors.jpg">
             <div class="text">
                 <h3>Wonderful Family Suite</h3>
@@ -71,7 +75,7 @@
             </div>
         </div>
 
-        <div class="item">
+        <div class="item" data-aos="fade-right">
             <div class="text">
                 <h3>Chilling Vibe Room</h3>
                 <p>Do you hear the calling from the ocean? Everyone has the right to have an escape trip to this beautiful island. Best room for budget travellers.</p>
@@ -112,6 +116,9 @@
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
     </div>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
