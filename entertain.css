@@ -90,7 +90,7 @@
     justify-content: center;
     width:100%;
     margin-bottom:70px;
-    gap:5px;
+    gap:20px;
 }
 .wrap .item{
     display:flex;
@@ -118,15 +118,17 @@
     line-height: 1.5;
     color:rgb(255, 255, 255, 0.8);
 }
-.wrap .item button{
-    font-size:13px;
+.wrap .item a{
+    font-size:15px;
     padding:6px;
     margin-top:10px;
     margin-left:200px;
     border:none;
-    cursor: pointer;
     border-radius: 15px;
     color:#B4A889;
+    background-color:rgb(255, 255, 255, 0.8);
+    text-decoration: none;
+    text-align: center;
     box-shadow: 1px 1px 2px rgb(163, 163, 163);
 }
 .footer{

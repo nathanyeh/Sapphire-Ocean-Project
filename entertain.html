@@ -8,6 +8,8 @@
     <title>Sapphire Ocean | Entertainment</title>
     <link rel="shortcut icon" href="./SOpics/favicon.ico">
     <link rel="stylesheet" href="./entertain.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -45,28 +47,28 @@
     </div>
 
     <div class="wrap">
-        <div class="item">
+        <div class="item" data-aos="flip-left">
             <img src="./SOpics/maitimebanner.png" alt="">
             <div class="text">
                 <h2>Maritime Activity</h2>
                 <p>From scuba diving to popular SUP<br>let's enjoy the beauty of the ocean.</p>
-                <a href="./maritime.html"><button>see more</button></a>
+                <a href="./maritime.html">see more</a>
             </div>
         </div>
-        <div class="item">
+        <div class="item" data-aos="flip-right">
             <img src="./SOpics/landtourbanner.png" alt="">
             <div class="text-mid">
                 <h2>Land Tour</h2>
                 <p>As an island explorer, there's always<br>so many things to experience.</p>
-                <a href="./maritime.html"><button>see more</button></a>
+                <a href="./maritime.html">see more</a>
             </div>
         </div>
-        <div class="item">
+        <div class="item" data-aos="flip-left">
             <img src="./SOpics/seafoodbanner.png" alt="">
             <div class="text">
                 <h2>Tasty Food</h2>
                 <p>Need some delicious food?<br>click here to find out the answer.</p>
-                <a href="./maritime.html"><button>see more</button></a>
+                <a href="./maritime.html">see more</a>
             </div>
         </div>
     </div>
@@ -102,6 +104,9 @@
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
     </div>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

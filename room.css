@@ -122,15 +122,17 @@
     margin:0px 35px;
     text-align: left;
 }
-.container .item .text button{
+.container .item .text a{
     border:1px solid #D0C4A4;
-    padding:15px;
+    padding:0.5em;
+    width:15%;
     background-color: white;
     color:#D0C4A4;
-    font-size: 15px;
-    margin:50px 50px 0 300px;
-    cursor: pointer;
-    border-radius: 20px;
+    font-size: 1.05em;
+    text-align: center;
+    text-decoration: none;
+    margin:3em 0 0 20em;
+    border-radius: 15px;
 }
 
 .footer{
