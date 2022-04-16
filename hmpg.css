@@ -259,17 +259,15 @@
     font-size:18px;
     margin:20px;
 }
-.wrap .item button{
-    background-color: #FFBA09;
-    padding: 6px;
-    border-radius: 40px;
-    border:1px solid #FFBA09;
-}
-.wrap .item button a{
+.wrap .item a{
     text-decoration: none;
     color:#000465;
     font-size:10px;
     text-align: center;
+    background-color: #FFBA09;
+    padding: 6px;
+    border-radius: 40px;
+    border:1px solid #FFBA09;
 }
 
 .about{

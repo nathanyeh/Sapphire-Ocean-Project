@@ -107,6 +107,7 @@
     font-size:40px;
     color:#000465;
     text-shadow:3px 2px 1px #D0C4A4;
+    pointer-events: none;
 }
 .event{
     display:flex;
@@ -157,15 +158,17 @@
     color:#D0C4A4;
     margin:20px;
 }
-.event .resign button{
-    border:none;
+.event .resign a{
     background-color:#FFBA09;
     color:#000465;
     font-size:15px;
-    padding:7px;
+    text-decoration: none;
+    padding:5px;
     border-radius: 30px;
-    margin:50px 0px 10px 350px;
-    cursor: pointer;
+    display:block;
+    width:15%;
+    text-align: center;
+    margin:30px 0 0 350px;
 }
 .footer{
     width:100%;

@@ -174,18 +174,24 @@
     justify-content: right;
     margin-bottom:70px;
 }
-.more button{
-    background-color:#FFBA09;
-    margin:20px;
-    border:5px solid #FFBA09;
-    border-radius: 15px;
-    box-shadow: 1px 1px 2px rgb(169, 169, 169);
-}
-.more a {
+.more .book{
     font-size: 15px;
     color: rgb(0,4,101,.9);
     text-decoration: none;
     padding:10px;
+    background-color:#FFBA09;
+    margin:20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px rgb(177, 177, 177);
+}
+.more .room{
+    font-size: 15px;
+    color:#D0C4A4;
+    border:1px solid #D0C4A4;
+    text-decoration: none;
+    padding:10px;
+    margin:20px;
+    border-radius: 15px;
 }
 .footer{
     width:100%;

@@ -129,6 +129,7 @@
 }
 .container .item img{
     width:27%;
+    border-radius: 20px 0 0 20px;
 }
 .container .text{
     border: 2px solid #D0C4A4;
@@ -137,6 +138,7 @@
     flex-direction: column;
     align-self: center;
     line-height: 1.5;
+    border-radius: 0 20px 20px 0;
 }
 .container .text h3{
     font-size:24px;

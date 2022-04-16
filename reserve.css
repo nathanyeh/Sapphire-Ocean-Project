@@ -97,20 +97,18 @@
     opacity:1;
     color:#D0C4A4;
 }
-.choice .item h3{
+.choice .item a{
     font-size:30px;
     color: rgb(0,4,101,.9);
     line-height: 250px;
-    margin:0 30px;
-    cursor: pointer;
+    margin:0 20px;
+    text-decoration: none;
+    background-color: #fff;
+    font-weight: bold;
 }
 .choice .item img{
     opacity:.6;
     cursor: pointer;
-}
-.choice .item a{
-    text-decoration: none;
-    background-color: #fff;
 }
 .footer{
     width:100%;
