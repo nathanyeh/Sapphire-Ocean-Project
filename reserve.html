@@ -8,6 +8,8 @@
     <title>Sapphire Ocean | Reservation</title>
     <link rel="shortcut icon" href="./SOpics/favicon.ico">
     <link rel="stylesheet" href="./reserve.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -45,16 +47,28 @@
 
     <div class="choice">
         <div class="item">
-            <a href="./booknow.html">Suites and rooms</a>
-            <a href="./booknow.html"><img src="./SOpics/suitesnrooms.png"></a>   
+            <div class="text" data-aos="zoom-in-right">
+                <a href="./booknow.html">Suites and rooms</a>
+            </div>
+            <div class="pic" data-aos="zoom-in-left">
+                <img src="./SOpics/suitesnrooms.png">
+            </div>
         </div>
         <div class="item">
-            <a href="./booknow.html"><img src="./SOpics/funactivities.png"></a>
-            <a href="./booknow.html">Fun activities</a>
+            <div class="pic" data-aos="zoom-in-right">
+                <img src="./SOpics/funactivities.png">
+            </div>
+            <div class="text" data-aos="zoom-in-left">
+                <a href="./booknow.html">Fun activities</a>
+            </div>
         </div>
         <div class="item">
-            <a href="./booknow.html">Transportaion</a>
-            <a href="./booknow.html"><img src="./SOpics/transportation.png"></a>
+            <div class="text" data-aos="zoom-in-right">
+                <a href="./booknow.html">Transportaion</a>
+            </div>
+            <div class="pic" data-aos="zoom-in-left">
+                <img src="./SOpics/transportation.png">
+            </div>
         </div>
     </div>
 
@@ -88,6 +102,9 @@
             <p>Copyright &copy; 2022, Sapphire Ocean, All rights reserved</p>
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
+        <script>
+            AOS.init();
+        </script>
     </div>
 </body>
 </html>

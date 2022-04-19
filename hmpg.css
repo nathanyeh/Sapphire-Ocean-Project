@@ -232,11 +232,12 @@
     width: 30px;
     height: 30px;
     color:#fff;
-    background-color:#D0C4A4;
+    background-color:#B4A889;
     text-align: center;
     right:30px;
     top:30px;
     border:none;
+    box-shadow:1px 1px 2px black;
     border-radius: 20px;
     cursor: pointer;
 }

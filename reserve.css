@@ -91,24 +91,38 @@
 .choice .item{
     display:flex;
     margin:auto;
-    margin-bottom:30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:7em;
+    gap:2em;
 }
-.choice .item :hover{
-    opacity:1;
-    color:#D0C4A4;
+.choice .item .text :hover{
+    transition:1s;
+    transform:scale(1.2);
 }
-.choice .item a{
+.choice .item .text a{
     font-size:30px;
-    color: rgb(0,4,101,.9);
+    color: #D0C4A4;
     line-height: 250px;
     margin:0 20px;
     text-decoration: none;
-    background-color: #fff;
     font-weight: bold;
+    display:block;
 }
-.choice .item img{
-    opacity:.6;
-    cursor: pointer;
+.choice .item .text{
+    border:3px solid #D0C4A4;
+    height:100%;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px lightgray;
+    border-radius: 20px;
+}
+.choice .item .pic{
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+.choice .item .pic img{
+    vertical-align: bottom;
+    border-radius: 20px;
 }
 .footer{
     width:100%;
