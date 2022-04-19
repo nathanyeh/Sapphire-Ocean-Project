@@ -93,21 +93,33 @@
 }
 .selection .item{
     position:relative;
+    display:flex;
+    justify-content: center;
 }
-.selection .item :hover{
+.selection .item:hover img{
     opacity:1;
     cursor: pointer;
+    transition:1s;
 }
 .selection .item img{
-    opacity: .6;
+    opacity: .5;
 }
 .selection .item .text{
-    position:absolute;
-    margin:-300px 0 0 60px;
-    font-size:40px;
-    color:#000465;
-    text-shadow:3px 2px 1px #D0C4A4;
+    position: absolute;
+    font-size:37px;
+    top:45%;
+    color:rgb(208,196,164, .9);
     pointer-events: none;
+    opacity:0;
+    width:100%;
+    text-align: center;
+    padding:1.5em 0 4.2em 0;
+    border-radius:0 0 175px 175px;
+    background-image: linear-gradient(to top, #000465 5%, transparent 90%);
+}
+.selection .item:hover .text{
+    opacity:1;
+    transition:1s;
 }
 .event{
     display:flex;

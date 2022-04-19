@@ -168,23 +168,23 @@
     margin:auto;
     justify-content: center;
     width:100%;
-    position:relative;
 }
 .room-type .wrap{
     width:30%;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding:3em;
+    padding:2em;
 }
-.room-type .item{
+.room-type .room-item{
     display:flex;
     flex-direction: column;
     align-items: center;
     padding:1em;
     position:relative;
+    width:90%;
 }
-.room-type .item .text{
+.room-type .room-item .text{
     position:absolute;
     font-size:3em;
     color:#000465;
@@ -194,7 +194,7 @@
     opacity:0;
     pointer-events: none;
 }
-.room-type .item img{
+.room-type .room-item img{
     width:100%;
     border: 2px solid #D0C4A4;
     padding:2em;
@@ -203,26 +203,29 @@
     cursor: pointer;
     vertical-align: top;
 }
-.room-type .item:hover img{
+.room-type .room-item:hover img{
     opacity:1;
     transition:2s;
 }
-.room-type .item:hover .text{
+.room-type .room-item:hover .text{
     transition:2s;
     opacity:1;
 
 }
 .room-type .lightbox{
-    width:50%;
+    width:55%;
     position:absolute;
     display:flex;
     justify-content: center;
     align-items: center;
+    top: 140%;
+    left:22%;
     display:none;
 }
 .room-type .lightbox img{
     width:100%;
     border-radius: 20px;
+    box-shadow: 2px 2px 3px lightgray;
 }
 .btn-clz{
     position:absolute;
@@ -231,11 +234,45 @@
     color:#fff;
     background-color:#D0C4A4;
     text-align: center;
-    right:10px;
-    top:10px;
+    right:30px;
+    top:30px;
     border:none;
     border-radius: 20px;
     cursor: pointer;
+}
+.lightbox .text{
+    position:absolute;
+    width:35%;
+    background-color: rgb(0,4,101,.7);
+    left:50%;
+    top:15%;
+    padding:1em;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px gray;
+}
+.lightbox .text h3{
+    text-align: center;
+    color:#D0C4A4;
+    font-size: 1.5em;
+    padding:1em;
+}
+.lightbox .text p{
+    text-align: left;
+    color:rgb(255, 255, 255, 0.9);
+    line-height: 1.5;
+    padding:0 2em 2em 2em;
+}
+.lightbox .text a{
+    display:block;
+    text-decoration: none;
+    color:#000465;
+    background-color: #FFBA09;
+    margin:0 0 2em 12em;
+    padding:.2em;
+    width:25%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px #000465;
 }
 
 .entertain{

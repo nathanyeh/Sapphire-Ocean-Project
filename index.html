@@ -63,21 +63,21 @@
         </div>
         <div class="room-type">
             <div class="wrap">
-                <div class="item">
+                <div class="room-item">
                     <img src="./SOpics/luxury-room.png">
                     <div class="text">Luxury Suites</div>
                 </div>
-                <div class="item">
+                <div class="room-item">
                     <img src="./SOpics/family-suites.png">
                     <div class="text">Family Suites</div>
                 </div>
             </div>
             <div class="wrap">
-                <div class="item">
+                <div class="room-item">
                     <img src="./SOpics/view-room.png">
                     <div class="text">Viewing Room</div>
                 </div>
-                <div class="item">
+                <div class="room-item">
                     <img src="./SOpics/chiling-vibe-room.png">
                     <div class="text">Chilling Room</div>
                 </div>
@@ -85,6 +85,12 @@
             <div class="lightbox">
                 <img src="./SOpics/Ocean-front-bedroom-with-tub.jpg">
                 <button class="btn-clz">X</button>
+                <div class="text">
+                    <h3>Luxury Ocean Suite</h3>
+                    <p>Leave the hustle and bustle behind. Relax yourself with warm sunshine, gentle wind and the
+                    most spectacular ocean view. Let's start the heart-fulfilled vacation.</p>
+                    <a href="./suitesroom.html">see details</a>
+                </div>
             </div>
         </div>
     </div>
@@ -189,6 +195,21 @@
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
     </div>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script>
+         $(document).ready(function(){
+            $('.room-item').click(function(){
+                $('.lightbox').show();
+            })
+    })
+        $(document).ready(function(){
+            $('.btn-clz').click(function(){
+                $('.lightbox').hide();
+            })
+        })
+   </script>
+    
 
 </body>
 
