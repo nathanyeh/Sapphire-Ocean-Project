@@ -8,6 +8,8 @@
     <title>Sapphire Ocean | Booking Now</title>
     <link rel="shortcut icon" href="./SOpics/favicon.ico">
     <link rel="stylesheet" href="./booking.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 
 <body>
@@ -48,16 +50,26 @@
             <input type="date">
             <label for="user_name">Check-Out Date</label>
             <input type="date">
-            <label for="user_name">Room</label>
-            <input type="number" min="1" max="5">
-            <label for="user_name">Guest</label>
-            <input type="number" min="1" max="10">
+            <select>
+                <option>1</option>>
+                <option>2</option>>
+                <option>3</option>>
+                <option>4</option>>
+            </select>
+            <p>rooms for</p>
+            <select>
+                <option>1</option>>
+                <option>2</option>>
+                <option>3</option>>
+                <option>4</option>>
+            </select>
+            <p>guests</p>
         </div>
         <button>Search For Results</button>
     </div>
 
-    <div class="container">
-        <div class="item">
+    <div class="container"> 
+        <div class="item" data-aos="fade-up">
             <img src="./SOpics/1494592313150.jpeg">
             <div class="text">
                 <h3>Luxury Ocean Suite</h3>
@@ -67,7 +79,7 @@
             </div>    
         </div>
 
-        <div class="item">
+        <div class="item" data-aos="fade-up">
             <img src="./SOpics/Modern-California-bedroom-with-an-ocean-view1.jpg">
             <div class="text">
                 <h3>Fabulous Viewing Room</h3>
@@ -76,7 +88,7 @@
             </div>
         </div>
 
-        <div class="item">
+        <div class="item" data-aos="fade-up">
             <img src="./SOpics/master-suite-sliding-doors.jpg">
             <div class="text">
                 <h3>Wonderful Family Suite</h3>
@@ -85,7 +97,7 @@
             </div>
         </div>
 
-        <div class="item">
+        <div class="item" data-aos="fade-up">
             <img src="./SOpics/H0A3363-1.2MB-990x590.jpg">
             <div class="text">
                 <h3>Chilling Vibe Room</h3>
@@ -125,6 +137,9 @@
             <p>Copyright &copy; 2022, Sapphire Ocean, All rights reserved</p>
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
+        <script>
+            AOS.init();
+        </script>
     </div>
 </body>
 

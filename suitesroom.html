@@ -46,9 +46,9 @@
 
     <div class="room-intro">
         <div class="room">
-            <img src="./SOpics/1494592313106 (2)1.jpeg">
+            <img id="large" src="./SOpics/1494592313106 (2).jpeg">
             <div class="slider">
-                <img src="./SOpics/1494592313173s.jpeg">
+                <img src="./SOpics/1494592313106 (2).jpeg">
                 <img src="./SOpics/1494592313260s.jpeg">
                 <img src="./SOpics/1494592312772s.jpeg">
                 <img src="./SOpics/1494592312937s.jpeg">
@@ -139,6 +139,21 @@
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
     </div>
+
+    <script>
+        function showLarge(e){
+          document.getElementById("large").src = e.target.src;
+        }
+        
+        function init(){
+            let imgs = document.querySelectorAll(".slider img");
+            for(let i=0; i<imgs.length; i++){
+                imgs[i].onclick = showLarge;
+            }
+        }
+        
+        window.addEventListener("load", init, false);
+        </script>
 </body>
 
 </html>

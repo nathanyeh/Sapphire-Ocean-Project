@@ -317,6 +317,7 @@
 }
 .explore .fun .item :hover{
     opacity:1;
+    transition:1s;
 }
 .explore .fun .item p{
     color:#D0C4A4;
