@@ -52,6 +52,11 @@
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
+html {
+    min-height:100%;
+    background-size:cover;
+    background-blend-mode: multiply;
+  }
 .banner{
     position:relative;
 }

@@ -496,3 +496,123 @@
     color:#79705a;
     margin:10px 0 0 0;
 }
+
+@media screen and (max-width:992px) {
+
+}
+
+@media screen and (max-width:767px){
+    .hb {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgb(0,4,101,.3);
+        position: relative;
+    }
+    .hb span {
+        position: absolute;
+        width: 36px;
+        height: 2px;
+        background-color: rgb(0,4,101,.7);
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .hb span:first-child {
+        top: 11px;
+    }
+    .hb span:nth-child(2) {
+        top: 0;
+        bottom: 0;
+    }
+    .hb span:last-child {
+        bottom: 11px;
+    }
+    .main-nav {
+        position: absolute;
+        background-color: rgb(0,4,101,.9);
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 60px);
+        opacity:0;
+        transition: opacity .5s, left 0s .5s;
+        /* display: none; */
+    }
+    .main-nav ul{
+        display:flex;
+        flex-direction:column;
+        align-items:flex-start;
+    }
+    .main-nav ul a {
+        display: inline-block;
+        margin: 60px 0 0 40px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2em;
+    }
+    .header nav ul li :hover{
+        border-bottom: none;
+        transition:.5s;
+        transform:scale(1.1);
+    }
+    #menu-switch {
+        position: fixed;
+        top:0;
+        opacity:0;
+        z-index: -1;
+    }
+    #menu-switch:checked~.header .main-header .main-nav {
+        /* display: block; */
+        left: 0;
+        opacity: 1;
+        transition: opacity .5s;
+    }
+
+    #menu-switch:checked~.header .main-header .hb span:first-child {
+        top: 19px;
+        transform: rotate(405deg);
+        transition: top .3s, transform .3s .3s;
+    }
+
+    #menu-switch:checked~.header .main-header .hb span:nth-child(2) {
+        display: none;
+    }
+
+    #menu-switch:checked~.header .main-header .hb span:last-child {
+        bottom: 19px;
+        transform: rotate(675deg);
+        transition: bottom .3s, transform .3s .3s;
+    }
+    .slider_container{
+        width:100%;
+        height:35vh;
+    }
+    .slider_container div{
+        top:65px;
+    }
+    .slider_container div span{
+        font-size:1.2em;
+        top:7.5em;
+        width:60%;
+    }
+    .room h2{
+        font-size:25px;
+        margin-bottom:3px;
+    }
+    .room p{
+        font-size:10px;
+    }
+    .room-type .wrap{
+        width:60%;
+    }
+    .room-type .room-item .text{
+        font-size:1.5em;
+        opacity:1;
+    }
+    .room-type .room-item img{
+        padding:1em;
+        border-radius: 25px;
+    }
+}
