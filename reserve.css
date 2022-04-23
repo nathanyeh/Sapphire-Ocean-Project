@@ -72,7 +72,7 @@
 .title{
     display:flex;
     flex-direction: column;
-    margin:70px 0 70px 0;
+    margin:70px 0 100px 0;
     background-image: url(SOpics/goldlineleft.png);
 }
 .title h2{
@@ -89,37 +89,39 @@
     display:flex;
     flex-direction: column;
     margin: auto;
-    width:100%;
 }
 .choice .item{
     display:flex;
     margin:auto;
     justify-content: center;
     align-items: center;
-    margin-bottom:7em;
-    gap:2em;
+    margin-bottom:8em 0em;
+    position:relative;
 }
 .choice .item .text :hover{
     transition:1s;
-    transform:scale(1.1);
+    transform:scale(1.2);
+    color:#000465;
 }
 .choice .item .text a{
-    font-size:30px;
-    color: #D0C4A4;
-    line-height: 250px;
-    margin:0 20px;
+    font-size:32px;
+    color: rgb(0,4,101,.8);
+    line-height: 330px;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
     display:block;
 }
 .choice .item .text{
-    border:3px solid #D0C4A4;
-    height:100%;
-    box-sizing: border-box;
+    border:2px solid rgb(208,196,164,.7);
     box-shadow: 2px 2px 2px lightgray;
     border-radius: 20px;
+    width:110%;
+    position: absolute;
+    background-color: rgb(255, 255, 255,.5);
 }
 .choice .item .pic{
+    width:100%;
     border-radius: 20px;
     box-shadow: 2px 2px 2px lightgray;
 }
@@ -130,6 +132,7 @@
 .footer{
     width:100%;
     background-color: #B4A889;
+    margin-top:100px;
 }
 .footer .contact{
     display:flex;
