@@ -52,6 +52,9 @@
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
+#reservation{
+    border-bottom: 1px solid #000465;
+}
 .banner{
     position:relative;
 }
@@ -98,7 +101,7 @@
 }
 .choice .item .text :hover{
     transition:1s;
-    transform:scale(1.2);
+    transform:scale(1.1);
 }
 .choice .item .text a{
     font-size:30px;
@@ -143,6 +146,9 @@
 .footer .contact .map{
     margin-bottom: 50px;
     align-items: center;
+}
+.footer .contact iframe{
+    border-radius: 20px;
 }
 .footer .address p{
     color:#000465;

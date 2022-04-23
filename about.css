@@ -52,6 +52,9 @@
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
+#about{
+    border-bottom: 1px solid #000465;
+}
 .banner{
     position:relative;
 }
@@ -255,6 +258,9 @@
 .footer .contact .map{
     margin-bottom: 50px;
     align-items: center;
+}
+.footer .contact iframe{
+    border-radius: 20px;
 }
 .footer .address p{
     color:#000465;

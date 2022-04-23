@@ -52,6 +52,9 @@
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
+#accommodation{
+    border-bottom: 1px solid #000465;
+}
 html {
     min-height:100%;
     background-size:cover;
@@ -99,9 +102,18 @@ html {
     margin: auto;
     gap:20px;
 }
+.container .item .pic{
+    width:700px;
+    overflow: hidden;
+    border-radius: 30px;
+}
 .container .item img{
     width:700px;
     border-radius: 30px;
+}
+.container .item img:hover{
+    transform:scale(1.1);
+    transition:1s;
 }
 .container .text{
     border: 2px solid #D0C4A4;
@@ -158,6 +170,9 @@ html {
 .footer .contact .map{
     margin-bottom: 50px;
     align-items: center;
+}
+.footer .contact iframe{
+    border-radius: 20px;
 }
 .footer .address p{
     color:#000465;

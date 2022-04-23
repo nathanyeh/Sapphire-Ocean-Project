@@ -25,7 +25,7 @@
             <nav>
                 <ul>
                     <li><a href="./roompage.html">Accommodation</a></li>
-                    <li><a href="./entertain.html">Entertainment</a></li>
+                    <li><a id="entertainment" href="./entertain.html">Entertainment</a></li>
                     <li><a href="./reserve.html">Reservation</a></li>
                     <li><a href="./about.html">About Us</a></li>
                 </ul>
@@ -71,9 +71,9 @@
 
     <div class="event">
         <div class="pic">
-            <img src="./SOpics/Apo-Island-Diving-by-Tim-Rock-1.jpg">
+            <img id="large" src="./SOpics/Apo-Island-Diving-by-Tim-Rock-1.jpg">
             <div class="slider">
-                <img src="./SOpics/e7df61a6c548919950aca681681083bc123.jpg">
+                <img src="./SOpics/Apo-Island-Diving-by-Tim-Rock-1.jpg">
                 <img src="./SOpics/Scuba-Diving-Sabah-1000x480123.jpg">
                 <img src="./SOpics/gettyimages-523421953123.jpg">
             </div>
@@ -110,11 +110,11 @@
 
     <div class="event">
         <div class="pic">
-            <img src="./SOpics/snorkel-key-west-6.jpg">
-            <div class="slider">
-                <img src="./SOpics/indonesia-snork.png">
+            <img id="larger" src="./SOpics/snorkel-key-west-6.jpg">
+            <div class="slider2">
+                <img src="./SOpics/snorkel-key-west-6.jpg">
+                <img src="./SOpics/indonesia-snork.jpg">
                 <img src="./SOpics/deportes-acuaticos.jpg">
-                <img src="./SOpics/shutterstock_snorkelling.jpg">
             </div>
         </div>
         <div class="description">
@@ -150,9 +150,9 @@
 
     <div class="event">
         <div class="pic">
-            <img src="./SOpics/jpg-(1)sup.jpg">
-            <div class="slider">
-                <img src="./SOpics/e5d0b68a0f4c876ba14e9f8339cea274123.jpg">
+            <img id="bigger" src="./SOpics/jpg-(1)sup.jpg">
+            <div class="slider3">
+                <img src="./SOpics/jpg-(1)sup.jpg">
                 <img src="./SOpics/stand-up-paddle-board-sports.jpg">
                 <img src="./SOpics/Amazing-SUP.jpg">
             </div>
@@ -187,7 +187,7 @@
     <div class="footer">
         <div class="contact">
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.2491786658998!2d121.22283401480944!3d24.95763548400822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823ea50c732a5%3A0x1b5e6ee66e9fec49!2z57ev6IKyVGliYU1l6ZmE6Kit5Lit5aOi6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1648641073499!5m2!1szh-TW!2stw" width="320" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.2491786658998!2d121.22283401480938!3d24.95763548400822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823ea50c732a5%3A0x1b5e6ee66e9fec49!2z57ev6IKyVGliYU1l6ZmE6Kit5Lit5aOi6IG36KiT5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1650700867013!5m2!1szh-TW!2stw" width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="address">
                 <p> No.10 XingFu Rd Ocean Island TaiTung Taiwan <br><br>
@@ -215,6 +215,48 @@
             <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
         </div>
     </div>
+
+    <script>
+        function showLarge(e){
+          document.getElementById("large").src = e.target.src;
+        }
+        
+        function init(){
+            let imgs = document.querySelectorAll(".slider img");
+            for(let i=0; i<imgs.length; i++){
+                imgs[i].onmouseover = showLarge;
+            }
+        }
+        window.addEventListener("load", init, false);
+    </script>
+
+    <script>
+        function showLarger(e){
+          document.getElementById("larger").src = e.target.src;
+        }
+        
+        function init(){
+            let imgs = document.querySelectorAll(".slider2 img");
+            for(let i=0; i<imgs.length; i++){
+                imgs[i].onmouseover = showLarger;
+            }
+        }
+        window.addEventListener("load", init, false);
+    </script>
+
+<script>
+    function showBigger(e){
+      document.getElementById("bigger").src = e.target.src;
+    }
+    
+    function init(){
+        let imgs = document.querySelectorAll(".slider3 img");
+        for(let i=0; i<imgs.length; i++){
+            imgs[i].onmouseover = showBigger;
+        }
+    }
+    window.addEventListener("load", init, false);
+</script>
 </body>
 
 </html>

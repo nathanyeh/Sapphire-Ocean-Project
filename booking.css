@@ -52,6 +52,9 @@
 .header nav ul li :hover{
     border-bottom: 1px solid #000465;
 }
+#reservation{
+    border-bottom: 1px solid #000465;
+}
 .banner{
     position:relative;
 }
@@ -129,11 +132,20 @@
     display:flex;
     margin: auto;
     justify-content: center;
-    box-sizing: border-box;
 }
-.container .item img{
-    width:27%;
+.container .item .pic{
+    width:28%;
+    overflow: hidden;
     border-radius: 20px 0 0 20px;
+}
+.container .item .pic img{
+    width:100%;
+    border-radius: 20px 0 0 20px;
+    vertical-align: bottom;
+}
+.container .item img:hover{
+    transition:1s;
+    transform:scale(1.1);
 }
 .container .text{
     border: 2px solid #D0C4A4;
@@ -189,6 +201,9 @@
 .footer .contact .map{
     margin-bottom: 50px;
     align-items: center;
+}
+.footer .contact iframe{
+    border-radius: 20px;
 }
 .footer .address p{
     color:#000465;
