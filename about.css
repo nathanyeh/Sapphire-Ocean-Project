@@ -129,6 +129,7 @@ html, body{
     margin:auto;
     justify-content: center;
     align-items: center;
+    width:100%;
 }
 .news .main-item{
     width:45%;
@@ -154,7 +155,7 @@ html, body{
     padding:0px 0 20px 10px;
     color: rgb(0,4,101,.9);
 }
-.new .main-item img{
+.news .main-item img{
     width:100%;
     vertical-align: bottom;
 }
@@ -380,19 +381,6 @@ html, body{
         transform: rotate(675deg);
         transition: bottom .3s, transform .3s .3s;
     }
-    .footer .title{
-        background-image: none;
-        background-color: white;
-        margin:100px 0 30px 0;
-
-    }
-    .footer .title h2{
-        font-size: 23px;
-        border-bottom: 1px solid #D0C4A4;
-    }
-    .footer .title p{
-        font-size: 15px;
-    }
     .footer .map{
         display:none;
     }
@@ -425,5 +413,96 @@ html, body{
     }
     .title p{
         font-size: 15px;
+    }
+    .story{
+        width:88%;
+        background-image: url(./SOpics/aerial-view-beach123456.jpg);
+    }
+    .story .text{
+        margin:3em 1em;
+        line-height: 1.5;
+    }
+    .story .text p{
+        padding:30px;
+        font-size: 16px;
+    }
+    .title-two{
+        background-image: none;
+    }
+    .title-two h2{
+        font-size: 23px;
+        border-bottom: 1px solid #D0C4A4;
+    }
+    .title-two p{
+        font-size: 15px;
+    }
+    .news{
+        flex-direction: column;
+    }
+    .news .main-item{
+        width:88%;
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+    .news .main-item h3{
+        font-size:18px;
+        padding:20px 10px;
+    }
+    .news .main-item p{
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .news .main-item span{
+        font-size: 16px;
+    }
+    .news .wrap{
+        width:98%;
+        margin-bottom: 0;
+    }
+    .news .wrap .item{
+        border:3px solid #D0C4A4; 
+    }
+    .news .wrap .item h4{
+        font-size: 18px;
+        padding:20px 10px;
+    }
+    .news .wrap .item p{
+        font-size: 16px;
+        line-height: 1.2;
+        padding:0 0 20px 10px;
+    }
+    .news .wrap .item span{
+        font-size: 16px;
+        padding:0px 0 20px 10px;
+    }
+    .title-three{
+        background-image: none;
+        margin:50px 0;
+    }
+    .title-three h2{
+        font-size: 23px;
+        border-bottom: 1px solid #D0C4A4;
+    }
+    .title-three p{
+        font-size: 15px;
+    }
+    .eco{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .eco .pic{
+        width:85%;
+        margin:0 0 20px 0;
+    }
+    .eco .text{
+        justify-content: center;
+        width:90%;
+    }
+    .eco .text p{
+        font-size: 17px;
+    }
+    .eco .text ul{
+        font-size: 16px;
+        line-height: 1.5;
     }
 }

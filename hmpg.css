@@ -703,12 +703,13 @@ html, body{
     }
     .entertain .explore{
         flex-direction: column;
+        align-items: center;
     }
     .entertain .fun{
         flex-direction:row;
         justify-content: space-evenly;
         align-items: flex-start;
-        gap:1em;
+        gap:1.5em;
     }
     .fun .item img{
         border: 2.5px solid #D0C4A4;

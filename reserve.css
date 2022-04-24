@@ -91,46 +91,47 @@ html, body{
 .choice{
     display:flex;
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+    width:100%;
 }
 .choice .item{
+    margin-bottom:8em;
     display:flex;
-    margin:auto;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-bottom:8em 0em;
-    position:relative;
-}
-.choice .item .text :hover{
-    transition:1s;
-    transform:scale(1.2);
-    color:#000465;
-}
-.choice .item .text a{
-    font-size:32px;
-    color: rgb(0,4,101,.8);
-    line-height: 330px;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    display:block;
-}
-.choice .item .text{
-    border:2px solid rgb(208,196,164,.7);
-    box-shadow: 2px 2px 2px lightgray;
-    border-radius: 20px;
-    width:110%;
-    position: absolute;
-    background-color: rgb(255, 255, 255,.5);
+    position: relative;
 }
 .choice .item .pic{
-    width:100%;
     border-radius: 20px;
     box-shadow: 2px 2px 2px lightgray;
 }
 .choice .item .pic img{
     vertical-align: bottom;
     border-radius: 20px;
+    width:100%;
+}
+.choice .item .text{
+    width:90%;
+    border:2px solid rgb(208,196,164,.7);
+    box-shadow: 0px 1px 2px lightgray;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255,.5);
+    position: absolute;
+    top:10%;
+}
+.choice .item .text a{
+    font-size:32px;
+    color: rgb(0,4,101,.8);
+    text-decoration: none;
+    font-weight: bold;
+    display:block;
+    padding:2.5em;
+    text-align: center;
+}
+.choice .item .text :hover{
+    transition:1s;
+    transform:scale(1.2);
+    color:#000465;
 }
 .footer{
     width:100%;
@@ -271,18 +272,8 @@ html, body{
         transform: rotate(675deg);
         transition: bottom .3s, transform .3s .3s;
     }
-    .footer .title{
-        background-image: none;
-        background-color: white;
-        margin:100px 0 30px 0;
-
-    }
-    .footer .title h2{
-        font-size: 23px;
-        border-bottom: 1px solid #D0C4A4;
-    }
-    .footer .title p{
-        font-size: 15px;
+    .footer{
+        margin-top:25px;
     }
     .footer .map{
         display:none;
@@ -316,5 +307,24 @@ html, body{
     }
     .title p{
         font-size: 15px;
+    }
+    .choice .item{
+        margin-bottom:4em;
+    }
+    .choice .item .pic{
+        width:88%;
+        border-radius: 10px;
+    }
+    .choice .item .pic img{
+        border-radius: 10px;
+        height:140px;
+    }
+    .choice .item .text{
+        width:80%;
+        border-radius: 10px;
+    }
+    .choice .item .text a{
+        font-size: 21px;
+        padding:2em;
     }
 }
