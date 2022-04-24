@@ -91,24 +91,24 @@ html, body{
 .check{
     display:flex;
     flex-direction: column;
-    margin:auto;
-    justify-content: center;
     width:100%;
     background-color: #D0C4A4;
-    margin-bottom:50px;
 }
 .check .box{
     display:flex;
-    margin: auto;
+    justify-content: center;
     padding:50px;
     color: rgb(0,4,101,.9);
     font-size: 23px;
 }
-.check label{
+.check .box .check-date label{
     font-size:23px;
     margin:0 10px;
 }
-.check .box select{
+.check .box .selection{
+    display:flex;
+}
+.check .box .selection select{
     margin:0 10px;
 }
 .check button{
@@ -128,8 +128,7 @@ html, body{
     display:flex;
     flex-direction: column;
     gap:40px;
-    position:relative;
-    margin-bottom:50px;
+    margin:100px 0;
 }
 .container .item{
     display:flex;
@@ -171,6 +170,7 @@ html, body{
     font-size:17px;
     color: rgb(0,4,101,.9);
     margin:0px 35px;
+    padding:0 15px;
     text-align: left;
 }
 .container .item .text button{
@@ -356,4 +356,60 @@ html, body{
     .title p{
         font-size: 15px;
     }
+    .check .box{
+        font-size: 18px;
+        flex-direction: column;
+        align-items: center;
+        padding:15px;
+    }
+    .check .box .check-date{
+        display:flex;
+        flex-direction: column;
+        margin-bottom:10px;
+    }
+    .check .box .check-date label{
+        font-size:18px;
+        margin:10px 0;
+    }
+    .check button{
+        font-size: 13px;
+        padding:7px;
+        margin-top:10px;
+        margin-bottom: 30px;
+    }
+    .container{
+        margin:50px 0;
+    }
+    .container .item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .item .pic{
+        width:80%;
+        border-radius: 20px 20px 0 0;
+    }
+   .container .item .pic img{
+        border-radius: 20px 20px 0 0;
+   }
+   .container .text{
+       width:79%;
+       border-radius: 0 0 20px 20px;
+   }
+   .container .text h3{
+       font-size: 20px;
+       text-align: center;
+       margin:20px;
+       padding:5;
+   }
+   .container .text p{
+       font-size: 16px;
+       margin:0 20px;
+       padding: 0 10px;
+   }
+   .container .item .text button{
+        width:70px;
+        padding:5px;
+        font-size: 13px;
+        margin:20px 0 30px 200px;
+   }
 }
