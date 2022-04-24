@@ -120,6 +120,10 @@ html, body{
     margin:0.5%;
     border-radius: 10px;
     cursor: pointer;
+    opacity: .7;
+}
+.room .slider img:hover{
+    opacity: 1;
 }
 .feature{
     width:100%;
@@ -382,5 +386,63 @@ html, body{
     }
     .title p{
         font-size: 15px;
+    }
+    .room-intro .room{
+        width:100%;
+        gap:1.5em;
+    }
+    .room-intro .room img{
+        width:87%;
+    }
+    .room .slider{
+        width:19%;
+    }
+    .room .slider img{
+        margin:.2em;
+        height:60px;
+    }
+    .feature .detail{
+        width:86%;
+        flex-direction: column;
+    }
+    .feature .detail .item{
+        width:100%;
+        margin:20px 0;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .feature .detail .item h5{
+        padding:20px 0px;
+    }
+    .feature .detail .item ul{
+        display:flex;
+        flex-direction: column;
+        margin:16px 0px;
+    }
+    .feature .detail .item li{
+        padding:5px 0px;
+    }
+    .feature .notice{
+        width:85%;
+        margin-bottom:10px;
+    }
+    .feature .notice p{
+        padding:20px;
+        font-size: 15px;
+    }
+    .more{
+        margin-bottom:40px;
+        width:100%;
+        justify-content: flex-end;
+    }
+    .more .book{
+        margin:20px 40px;
+        padding:7px;
+        border-radius: 12px;
+    }
+    .more .room{
+        margin:20px 0;
+        padding:7px;
+        border-radius: 12px;
     }
 }

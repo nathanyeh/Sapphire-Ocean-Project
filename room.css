@@ -103,15 +103,19 @@ html {
 .container .item{
     display:flex;
     margin: auto;
+    justify-content: center;
     gap:20px;
 }
+#for-mobile{
+    display:none;
+}
 .container .item .pic{
-    width:700px;
+    width:47%;
     overflow: hidden;
     border-radius: 30px;
 }
-.container .item img{
-    width:700px;
+.container .item .pic img{
+    width:100%;
     border-radius: 30px;
 }
 .container .item img:hover{
@@ -120,8 +124,7 @@ html {
 }
 .container .text{
     border: 2px solid #D0C4A4;
-    width:500px;
-    height:360px;
+    width:30%;
     display:flex;
     flex-direction: column;
     align-self: center;
@@ -145,13 +148,13 @@ html {
 .container .item .text a{
     border:1px solid #D0C4A4;
     padding:0.5em;
-    width:15%;
+    width:20%;
     background-color: white;
     color:#D0C4A4;
     font-size: 1.05em;
     text-align: center;
     text-decoration: none;
-    margin:3em 0 0 20em;
+    margin:3em 0 3em 18em;
     border-radius: 15px;
 }
 .footer{
@@ -337,5 +340,36 @@ html {
     }
     .title p{
         font-size: 15px;
+    }
+    .container .item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .item .pic{
+        width:85%;
+    }
+    .container .text{
+        width:80%;
+    }
+    #for-web{
+        display:none;
+    }
+    #for-mobile{
+        display:block;
+    }
+    .container .text h3{
+        font-size: 21px;
+        padding:5px;
+        margin:20px;
+    }
+    .container .text p{
+        margin:0 25px;
+        font-size: 16px;
+    }
+    .container .item .text a{
+        width:25%;
+        margin:1em 0 1.5em 12em;
+        padding:0.3em;
+        font-size: 1em;
     }
 }
