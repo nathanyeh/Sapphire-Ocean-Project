@@ -557,10 +557,10 @@ html, body{
     }
     .main-nav ul a {
         display: inline-block;
-        margin: 60px 0 0 40px;
+        margin: 60px 0 0 70px;
         text-decoration: none;
         color: #fff;
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
     .header nav ul li :hover{
         border-bottom: none;
