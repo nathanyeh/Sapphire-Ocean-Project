@@ -109,6 +109,7 @@ html, body{
 }
 .selection .item img{
     opacity: .5;
+    width:100%;
 }
 .selection .item .text{
     position: absolute;
@@ -129,7 +130,6 @@ html, body{
 }
 .event{
     display:flex;
-    margin:auto;
     justify-content: center;
     width:100%;
     background-image: linear-gradient(360deg, #00c3ff, #fff);
@@ -143,8 +143,10 @@ html, body{
     width:50%;
 }
 .event .pic img{
+    width:100%;
     border-radius: 150px;
     border:4px solid #D0C4A4;
+    vertical-align: bottom;
 }
 .event .pic .slider{
     display:flex;
@@ -203,12 +205,13 @@ html, body{
     color:#000465;
     font-size:15px;
     text-decoration: none;
+    text-align: center;
     padding:5px;
     border-radius: 30px;
     display:block;
     width:15%;
-    text-align: center;
     margin:30px 0 0 350px;
+    box-shadow: 0px 2px 2px #000465;
 }
 .event .back a{
     text-decoration: none;
@@ -386,4 +389,51 @@ html, body{
     .title p{
         font-size: 15px;
     }
-}
+    .selection{
+        gap:5px;
+        width:90%;
+        margin-top: 0;
+        margin-bottom:150px;
+    }
+    .selection .item img{
+        opacity: .9;
+    }
+    .selection .item .text{
+        font-size: 15px;
+        opacity:1;
+        top:88%;
+        background-image: none;
+    }
+    .selection .item:hover .text{
+        opacity:1;
+        transition:1s;
+    }
+    .event{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .event .pic{
+        width:90%;
+        align-items: center;
+    }
+    .event .description{
+        width:85%;
+    }
+    .event .text{
+        padding:25px;
+    }
+    .event .description h3{
+        font-size: 20px;
+        margin:10px;
+    }
+    .event .description p{
+        font-size: 15px;
+    }
+    .event .resign a{
+        width:20%;
+        margin:20px 0 0 200px;
+    }
+    .event .back a{
+        margin-left:30px;
+    }
+  }
