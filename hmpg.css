@@ -595,6 +595,189 @@ html, body{
         transform: rotate(675deg);
         transition: bottom .3s, transform .3s .3s;
     }
+    .slider_container{
+        width:100%;
+        height:70vh;
+    }
+    .slider_container div{
+        top:7%;
+        width: 100%;
+        padding-bottom: 80%;
+    }
+    .slider_container div img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+        object-position:28%;
+    }
+
+    .slider_container div span{
+        font-size:2.3em;
+        top:12em;
+        left:0;
+        width:90%;
+        line-height: 2;
+    }
+    .room .title{
+        margin:30px 0 50px 0;
+        background-image: none;
+
+    }
+    .room h2{
+        font-size:26px;
+        border-bottom:1px solid #D0C4A4;
+    }
+    .room p{
+        font-size:18px;
+    }
+    .room-type{
+        width:90%;
+    }
+    .room-type .wrap{
+        width:100%;
+        padding:2em;
+    }
+    .room-type .room-item{
+        padding:1em;
+        width:100%;
+    }
+    .room-type .room-item .text{
+        font-size:2.5em;
+        opacity:1;
+        bottom:40%;
+        left:15%;
+    }
+    .room-type .room-item img{
+        padding:1em;
+        border-radius: 30px;
+    }
+    .room-type .lightbox{
+        width:90%;
+        top:80%;
+        left:5%;
+    }
+    .btn-clz{
+        right:30px;
+        top:30px;
+        width:35px;
+        height:35px;
+    }
+    .lightbox .text{
+        top:101%;
+        padding:.5em;
+        width:98%;
+        left:0;
+        background-color: rgb(0,4,101,.9);
+    }
+    .lightbox .text h3{
+        font-size:1.5em;
+    }
+    .lightbox .text p{
+        line-height: 1.5;
+        font-size: 1.2em;
+        padding:0 1.2em 1.5em 1.2em;
+    }
+    .lightbox .text a{
+        width:16%;
+        font-size: 1.1em;
+        margin-left:28em;
+    }
+    .entertain .title{
+        background-image: none;
+    }
+    .entertain .title h2{
+        font-size: 26px;
+        border-bottom: 1px solid #D0C4A4;
+    }
+    .entertain .title p{
+        font-size: 18px;
+    }
+    .entertain .explore{
+        flex-direction: column;
+        align-items: center;
+    }
+    .entertain .fun{
+        flex-direction:row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        gap:2em;
+    }
+    .fun .item img{
+        border: 2.5px solid #D0C4A4;
+        width:100%;
+    }
+    .event{
+        width:87%;
+        border: 1.5px solid #D0C4A4;
+        border-radius: 70px;
+    }
+    .event .text h3{
+        font-size: 1.5em;
+    }
+    .event .text p{
+        font-size: 1.1em;
+        padding:1em 0;
+    }
+    .event .wrap .item{
+        margin:30px 10px;
+    }
+    .wrap .item h4{
+        font-size:18px;
+    }
+    .wrap .item a{
+        font-size: 13px;
+        padding:8px;
+    }
+    .about .title{
+        background-image: none;
+    }
+    .about .title h2{
+        font-size:26px;
+        border-bottom: 1px solid #D0C4A4;
+    }
+    .about .title p{
+        font-size:18px;
+    }
+    .about .story{
+        width:86%;
+        border-radius: 30px;
+    }
+    .about .story .text{
+        border-radius: 20px;
+        margin:5em 2em;
+    }
+    .about .text p{
+        padding:3em;
+        font-size: 1.2em;;
+    }
+    .footer .title{
+        background-color: white;
+        background-image: none;
+        margin:100px 0 30px 0;
+
+    }
+    .footer .title h2{
+        font-size: 26px;
+        border-bottom: 1px solid #D0C4A4;
+    }
+    .footer .title p{
+        font-size: 18px;
+    }
+    .footer .contact{
+        gap:0;
+    }
+    .footer .address p{
+        line-height:1.2;
+        font-size: 16px;
+    }
+    .footer .contact .icon img{
+        height:28px;
+    }
+    .footer .privacy p{
+        font-size: 12px;
+        margin:10px 0 0 0;
+    }
 }
 
 @media screen and (max-width:767px){
@@ -753,10 +936,10 @@ html, body{
         height:280px;
     }
     .btn-clz{
-        right:15px;
-        top:15px;
-        width:25px;
-        height:25px;
+        right:20px;
+        top:20px;
+        width:27px;
+        height:27px;
     }
     .lightbox .text{
         top:105%;
@@ -800,7 +983,7 @@ html, body{
     }
     .fun .item img{
         border: 2.5px solid #D0C4A4;
-        width:110%;
+        width:105%;
     }
     .event{
         width:88%;
