@@ -874,7 +874,7 @@ html, body{
         height:25vh;
     }
     .slider_container div{
-        top:32%;
+        top:29%;
         width: 100%;
         padding-bottom: 110%;
         overflow: hidden;
@@ -929,11 +929,8 @@ html, body{
     }
     .room-type .lightbox{
         width:90%;
-        top:90%;
+        top:70%;
         left:5%;
-    }
-    .room-type .lightbox img{
-        height:280px;
     }
     .btn-clz{
         right:20px;
@@ -942,7 +939,7 @@ html, body{
         height:27px;
     }
     .lightbox .text{
-        top:105%;
+        top:101%;
         padding:.3em;
         width:97%;
         left:0;
